@@ -12,22 +12,18 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   color: aliceblue;
+  background-attachment: fixed;
 }
 
 .container {
-    position: absolute;
-    padding: 16px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+
+    position: relative;
     width: 50%;
     min-width: 500px;
     background-color:rgba(0, 0, 0, 0.4);
-    text-align: center;
     border-radius: 4px;
     text-transform: uppercase;
-    text-align: center;
-    height: 500px;
+    
 }
 
 .title-box{
