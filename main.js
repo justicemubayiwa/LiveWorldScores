@@ -20,6 +20,13 @@ fetch("https://v3.football.api-sports.io/fixtures?live=all", {
   var goals = matchesList[0]['goals'];
   var teams = matchesList[0]['teams'];
   console.log(matchesList.length)
+
+  elapsedTime.innerHTML = fixture['status']['elapsed'] + "'";
+   homeTeamImage.src = teams['home']['logo'];
+   homeTeamName.innerHTML = teams['home']['name'];
+   awayTeamImage.src = teams['away']['logo'];
+   awayTeamName.innerHTML = teams['away']['name'];
+   lastMatchGoal.innerHTML = goals['home']+ " - " + goals['away'];
 }))
 
   
