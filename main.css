@@ -85,8 +85,10 @@ body {
   width: 100px;
 }
 
-
-
+.score-title{
+  display: flex;
+  justify-content: space-between ;
+}
 
 .dots-wrapper{
 	display: flex;
