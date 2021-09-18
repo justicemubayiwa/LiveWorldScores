@@ -15,7 +15,11 @@ fetch("https://v3.football.api-sports.io/fixtures?live=all", {
     }
 })
 .then(response => response.json().then(data => {
-    console.log(response)
+  var matchesList = data['response'];
+  var fixture = matchesList[0]['fixture'];
+  var goals = matchesList[0]['goals'];
+  var teams = matchesList[0]['teams'];
+  console.log(matchesList.length)
 }))
 
   
