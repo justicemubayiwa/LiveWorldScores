@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   outline: 0;
-  font-family: 'Montserrat',sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -11,6 +11,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  color: aliceblue;
 }
 
 .container {
@@ -21,7 +22,7 @@ body {
     transform: translate(-50%,-50%);
     width: 50%;
     min-width: 500px;
-    background-color:#FAFAFA;
+    background-color:rgba(0, 0, 0, 0.4);
     text-align: center;
     border-radius: 4px;
     text-transform: uppercase;
@@ -84,16 +85,25 @@ body {
   width: 100px;
 }
 
-@media screen and (max-width: 600px) {
-  .container {
-    width: 60%;
-  }
+
+
+
+.dots-wrapper{
+	display: flex;
+	padding: 10px;
 }
 
-@media screen and (max-width: 400px) {
-  .container {
-    width: 85%;
-  }
+#dot-1{
+	background-color:  #FC6058;
+}
+
+
+.browser-dot{
+	background-color: black;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	margin: 5px;
 }
 
 
