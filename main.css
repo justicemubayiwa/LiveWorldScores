@@ -38,3 +38,24 @@ body {
   font-size: 1em;
 }
 
+.title-box #goals{
+    font-size: 2.5em;
+}
+
+.team{
+  width: 100px;
+}
+
+.team img{
+  height: 54px;
+  width: 54px;
+}
+
+.matches-table{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
