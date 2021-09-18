@@ -13,19 +13,21 @@ body {
   background-position: center;
   color: aliceblue;
   background-attachment: fixed;
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
+  
 }
 
 .container {
 
-    position: relative;
-    width: 50%;
-    min-width: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 60%;
+    min-width: 600px;
     background-color:rgba(0, 0, 0, 0.4);
     border-radius: 4px;
     text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
     
 }
 
@@ -57,7 +59,7 @@ body {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
-  overflow: scroll;
+  
 }
 
 .match-tile{
