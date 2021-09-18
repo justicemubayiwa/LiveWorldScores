@@ -27,7 +27,14 @@ fetch("https://v3.football.api-sports.io/fixtures?live=all", {
    awayTeamImage.src = teams['away']['logo'];
    awayTeamName.innerHTML = teams['away']['name'];
    lastMatchGoal.innerHTML = goals['home']+ " - " + goals['away'];
+
+  for(var i = 1; i<matchesList.length;i++){
+  addMatchTile(matchesList[i]);
+}
 }))
+.catch(err => {
+  console.log(err);
+});
 
   
 
